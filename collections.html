@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- local stylesheets -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- local scripts -->
+    <script async src="./js/scripts.js"></script>
+    <title>Collections - TheFavoured</title>
+  </head>
+  <body>
+    <!-- wrapper -->
+    <div class="container">
+      <!-- header section -->
+      <header>
+        <nav class="nav nav-header">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="./collections.html">Collections</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+        </nav>
+        <h1>TheFavoured</h1>
+      </header>
+      <!-- End of header -->
+
+      <!-- main section -->
+      <div class="container">
+        <h1 class="title">Collections</h1>
+
+        <div class="collection">
+          <div class="collection-items">
+            <h4 class="collection-items-title">Item 1</h4>
+            <img src="./images/violin.jpg" alt="items" width="400" height="400" class="collection-img"/>
+            <div class='collection-items-footer'>
+              <span class="collection-items-price">₦4300</span>
+              <button class="btn collection-items-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="collection-items">
+            <h4 class="collection-items-title">Item 2</h4>
+            <img src="./images/sax.jpg" alt="items" width="400" height="400" class="collection-img" />
+            <div class='collection-items-footer'>
+              <span class="collection-items-price">₦5000</span>
+              <button class="btn collection-items-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="collection-items">
+            <h4 class="collection-items-title">Item 3</h4>
+            <img src="./images/piano.jpg" alt="items" width="400" height="400" class="collection-img" />
+            <div class='collection-items-footer'>
+              <span class="collection-items-price">₦9000</span>
+              <button class="btn collection-items-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="collection-items">
+            <h4 class="collection-items-title">Item 4</h4>
+            <img src="./images/microphone.jpg" alt="items" width="400" height="400"class="collection-img"/>
+            <div class='collection-items-footer'>
+              <span class="collection-items-price">₦4000</span>
+              <button class="btn collection-items-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="collection-items">
+            <h4 class="collection-items-title">Item 5</h4>
+            <img src="./images/headphone.jpg" alt="items" width="400" height="400" class="collection-img"/>
+            <div class='collection-items-footer'>
+              <span class="collection-items-price">₦4000</span>
+              <button class="btn collection-items-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="collection-items">
+            <h4 class="collection-items-title">Item 6</h4>
+            <img src="./images/guiter.jpg" alt="items" width="400" height="400" class="collection-img"/>
+            <div class='collection-items-footer'>
+              <span class="collection-items-price">₦3500</span>
+              <button class="btn collection-items-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="collection-items">
+            <h4 class="collection-items-title">Item 7</h4>
+            <img src="./images/ground-piano.jpg" alt="items" width="400" height="400"class="collection-img" />
+            <div class='collection-items-footer'>
+              <span class="collection-items-price">₦4600</span>
+              <button class="btn collection-items-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- cart -->
+          <div class="cart">
+              <h2 class="title cart-items-header">CART</h2>
+              <div class="tableWrapper">
+                <table>
+                  <thead>
+                  <th>ITEM</th>
+                    <th>PRICE</th>
+                    <th>QUANTITY</th>
+                  </thead>
+                  <tbody>
+                    <!--<tr class="cart-items">
+                      <td class="cart-items-title">
+                        <img src="./images/microphone.jpg" alt="cart image" width="100px" height="100px">
+                        <span class="cart-title">Microphone</span>
+                      </td>
+                      <td class="cart-items-price">₦4000.00</td>
+                      <td class="class-items-qty-container">
+                        <input class="cart-items-qty" type="number" value='1'>
+                        <button class="btn cart-items-remove">REMOVE</button>
+                      </td>
+                    </tr>
+  
+                    <tr class="cart-items">
+                      <td class="cart-items-title">
+                        <img src="./images/microphone.jpg" alt="cart image" width="100px" height="100px">
+                        <span class="cart-title">Microphone</span>
+                      </td>
+                      <td class="cart-items-price">₦4000.00</td>
+                      <td class="class-items-qty-container">
+                        <input class="cart-items-qty" type="number" value='2'>
+                        <button class="btn cart-items-remove">REMOVE</button>
+                      </td>
+                    </tr>
+  
+                    <tr class="cart-items">
+                      <td class="cart-items-title">
+                        <img src="./images/piano.jpg" alt="cart image" width="100px" height="100px">
+                        <span class="cart-title">Expo Piano</span>
+                      </td>
+                      <td class="cart-items-price">₦3900.88</td>
+                      <td class="cart-items-qty-container">
+                        <input class="cart-items-qty" type="number" value='2'>
+                        <button class="btn cart-items-remove">REMOVE</button> -->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <h4 class="cart-total">Total: ₦0.00</h4>
+              <button class="cart-item-purshase">PURCHASE</button>
+          </div>
+
+        <!-- End of cart -->
+        <div>
+            <h3><a class="top" href="#">Back to top</a></h3> 
+        </div>
+      </div>
+
+      <!-- End of main -->
+
+      <footer>
+        <h2 class="footer-logo">TheFavoured</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- End of wrapper -->
+  </body>
+</html>
